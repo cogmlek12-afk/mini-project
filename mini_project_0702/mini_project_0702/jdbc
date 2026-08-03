@@ -1,0 +1,26 @@
+package mini;
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DbConnection {
+
+	public static void main(String[] args) {
+		String url = "jdbc:oracle:thin:@localhost:1521:xe";
+		String userName = "C##KCH"; 
+		String password = "CH";
+
+		try
+        (Connection conn = DriverManager.getConnection(url, userName, password);){
+
+			
+        }catch (SQLException e) {
+
+            e.printStackTrace();
+        }
+		
+	}
+
+}
