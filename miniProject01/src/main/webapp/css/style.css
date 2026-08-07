@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&family=Pretendard:wght@300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family: "Arial", sans-serif;
+    background: #f4f8fb;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+
+/* 메인 / 페이지 카드 */
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+/* 제목 */
+h1, h2 {
+    text-align: center;
+    color: #23658a;
+    margin-bottom: 30px;
+}
+
+
+/* 설명 문구 */
+.subtitle {
+    text-align: center;
+    color: #777;
+}
+
+
+/* 메뉴 버튼 */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #2c7da0;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 17px;
+}
+
+
+.menu a:hover {
+    background: #1d5d7a;
+}
+
+
+/* 입력 */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+/* 버튼 */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #2c7da0;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+
+button:hover {
+    background:#1d5d7a;
+}
+
+
+/* 조회 결과 */
+.patient-card {
+    background:#ffffff;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    line-height:1.8;
+}
+
+
+/* 로고 */
+.logo {
+    text-align:center;
+    font-size:45px;
+    color:#2c7da0;
+}
+
+
+/* 하단 */
+footer {
+    text-align:center;
+    margin-top:30px;
+    color:#888;
+}
+body{
+
+    background:#F7F4EF;
+
+    font-family:'Pretendard',sans-serif;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+}
+
+.container{
+
+    width:650px;
+
+    background:#fff;
+
+    border-radius:30px;
+
+    padding:70px 60px;
+
+    text-align:center;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+}
+
+.logo{
+
+    font-size:45px;
+
+    color:#B89B5E;
+
+    margin-bottom:15px;
+}
+
+h1{
+
+    font-family:'Noto Serif KR',serif;
+
+    font-size:38px;
+
+    font-weight:400;
+
+    color:#333;
+
+    letter-spacing:2px;
+}
+
+.subtitle{
+
+    color:#888;
+
+    margin-top:15px;
+
+    margin-bottom:45px;
+
+    font-size:16px;
+
+    letter-spacing:1px;
+}
+
+.menu{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+}
+
+.menu a{
+
+    text-decoration:none;
+
+    color:#555;
+
+    background:#F8F8F8;
+
+    padding:18px;
+
+    border-radius:50px;
+
+    font-size:17px;
+
+    transition:.35s;
+
+    border:1px solid #ECECEC;
+}
+
+.menu a:hover{
+
+    background:#B89B5E;
+
+    color:white;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 8px 25px rgba(184,155,94,.3);
+}
+
+footer{
+
+    margin-top:55px;
+
+    color:#B0B0B0;
+
+    font-size:13px;
+
+    letter-spacing:1px;
+}
